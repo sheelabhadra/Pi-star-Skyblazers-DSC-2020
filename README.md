@@ -1,12 +1,13 @@
-# Pi-star Skyblazers 2020 TAMIDS Data Science Competition
+# 2020 TAMIDS Data Science Competition
+## Team: Pi-star Skyblazers (Winners in the grad division)
 
-This repo contains the solution of the team Pi-star Skyblazers that won the 1st place in the graduate division of the [2020 TAMIDS Data Science Competition](https://tamids.tamu.edu/2020/02/10/2020-data-science-competition-call/). The goal of this competition was to use airline data from the US Bureau of Transportation Statistics to develop performance measures for airlines and models to forecast expected performance. [Sumedh]() was my teammate in this project.
+This repo contains the codebase for solution proposed by the team "Pi-star Skyblazers" that won the 1st place in the graduate division of the [2020 TAMIDS Data Science Competition](https://tamids.tamu.edu/2020/02/10/2020-data-science-competition-call/). The goal of this competition was to use airline data from the US Bureau of Transportation Statistics to develop performance measures for airlines and models to forecast expected performance. [Sumedh Pendurkar](https://sumedhpendurkar.github.io/) was my teammate in this project and he is the architect behind our web-application. It was fun working with him.  
 
-My team also stood 1st in the [2019 TAMIDS Data Science Competition](https://tamids.tamu.edu/2019/05/09/2019-tamids-data-science-competition-results/) during which I was part of a super-duper team.    
+My team also bagged top honors in the [2019 TAMIDS Data Science Competition](https://tamids.tamu.edu/2019/05/09/2019-tamids-data-science-competition-results/) during which I was part of a super-duper team named "Superficial Intelligence". My teammates were some of the most passionate, ingenious, and industrious people I've ever worked with. Two of them were among the founding members of the world's first and only MLH data science hackathon, [TAMU Datathon](https://2019.tamudatathon.com/), organized at Texas A&M University in 2019.  
 
-Below is a bird's eyeview of our approach and results. Please feel free to go through our [report]() for a detailed description of our approach, results, and findings. Much of the tips and tricks used in this project were from Jeremy Howard's [Intro to ML for Coders course](http://course18.fast.ai/ml.html). This course along with the [fastai](https://github.com/fastai/fastai) library are some of the best resources you can find on the web for free to slay most of your data science projects. Kudos to the team at Fast AI for their amazing efforts towards democratizing machine learning.  
+A bird's eyeview of our approach and results is provided here. Please feel free to go through our [report](project-report) for a detailed description of our approach, results, and findings. Or watch [this](https://www.youtube.com/watch?v=nkM3ttM8Sv0) short 8-minute video presentation if you are in a hurry or prefer watching videos over reading text like me. Much of the tips and tricks used in this project were inspired from Jeremy Howard's course titled [Introduction to Machine Learning for Coders!](http://course18.fast.ai/ml.html). This course along with the [fastai](https://github.com/fastai/fastai) library are some of the best resources you can find on the web for free to slay most of your data science projects. Kudos to the team at Fast AI for their amazing efforts towards democratizing machine learning.  
 
-## Goals
+## Project Goals
 1. Predicting departure delays given the origin airport, destination airport, airline, date of travel, and time of departure.
 2. Determining the main factors contributing towards flight delays.
 3. Creating a web application in which a user can provide information regarding her planned travel and obtain an estimate of the flight delay.
@@ -48,6 +49,6 @@ Below is a screenshot of our web-app. It allows you to look for the flight based
 
 ## Future Work
 
-- [ ] Refactor code to make the testing pipeline lighweight
+- [ ] Refactor code to make the testing pipeline lighweight.
 - [ ] Train a model taking into account the class imbalance problem in the dataset. Refer to [this](https://machinelearningmastery.com/bagging-and-random-forest-for-imbalanced-classification/).
-- [ ] Find a place for hosting our web app for free
+- [ ] Find a place for hosting our web app for free.
