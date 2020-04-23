@@ -8,18 +8,18 @@ My team also bagged top honors in the [2019 TAMIDS Data Science Competition](htt
 A bird's eyeview of our approach and results is provided here. Please feel free to go through our [report](project-report) for a detailed description of our approach, results, and findings. Or watch [this](https://www.youtube.com/watch?v=nkM3ttM8Sv0) short 8-minute video presentation if you are in a hurry or prefer watching videos over reading text like me. Much of the tips and tricks used in this project were inspired from Jeremy Howard's course titled [Introduction to Machine Learning for Coders!](http://course18.fast.ai/ml.html). This course along with the [fastai](https://github.com/fastai/fastai) library are some of the best resources you can find on the web for free to slay most of your data science projects. Kudos to the team at Fast AI for their amazing efforts towards democratizing machine learning.  
 
 ## Project Goals
-1. Predicting departure delays given the origin airport, destination airport, airline, date of travel, and time of departure.
-2. Determining the main factors contributing towards flight delays.
-3. Creating a web application in which a user can provide information regarding her planned travel and obtain an estimate of the flight delay.
+- Predicting departure delays given the origin airport, destination airport, airline, date of travel, and time of departure.
+- Determining the main factors contributing towards flight delays.
+- Creating a web application in which a user can provide information regarding her planned travel and obtain an estimate of the flight delay.
 
 ## Approach
 
-1. We visualized the data, with various charts, graphs, to get an overall overview of the data.
-2. We found patterns from the observations and plots, and analyzed the importance of each feature on the delays to greater depth.
-3. We used tree-based machine learning models such as random forests and gradient-boosted trees to predict flight delays.
-4. We analyzed the importance of features to identify their amount of contribution to our predictions.
-5. Using tree interpreters and waterfall charts we identif how different features impact our model’s prediction of delays.
-6. We used partial dependence plots to analyze the impact of individual features, and feature interactions on delays.
+- We visualized the data, with various charts, graphs, to get an overall overview of the data.
+- We found patterns from the observations and plots, and analyzed the importance of each feature on the delays to greater depth.
+- We used tree-based machine learning models such as random forests and gradient-boosted trees to predict flight delays.
+- We analyzed the importance of features to identify their amount of contribution to our predictions.
+- Using tree interpreters and waterfall charts we identif how different features impact our model’s prediction of delays.
+- We used partial dependence plots to analyze the impact of individual features, and feature interactions on delays.
 
 ## Delay Prediction
 
